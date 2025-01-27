@@ -42,7 +42,7 @@ Este proyecto implementa un sistema distribuido para la gestión de pedidos con 
 ---
 
 ## **Capturas de Pantalla**  
-> *(Incluye aquí capturas relevantes como el dashboard o el flujo del sistema.)*
+> *(Capturas pendiente)*
 
 ### Dashboard Web  
 ![Dashboard](assets/dashboard_web.png)  
