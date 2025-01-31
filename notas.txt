@@ -1,0 +1,24 @@
+sudo docker-compose up --build levantamos todo
+SI FALLA UN PUERTO VEMOS EL PUERTO
+MANDAMOS UN SS
+sudo ss -tulnp | grep 3306
+
+PROBABLEMENTE SEA EL MYSQL lo detenemos con sytemctl stop MYSQL
+
+
+///////////////////Conexion con github
+ssh -T git@github.com
+git remote -v
+deberiamos estar conectados, si es asi, mandamos los push
+git add.
+git status
+y gir commit -m ""
+git push origin main
+
+SI EL GITHUB TIENE CAMBIOS
+git pull origin main --rebase
+SINCRONIZAMOS REPOS
+
+###entrar al bash del docker
+sudo docker exec -it name bash
+mysql -u root -p
